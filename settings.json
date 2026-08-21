@@ -34,7 +34,14 @@
       "Bash",
       "Bash(npm *)",
       "Read",
-      "Edit"
+      "Edit",
+      "Write",
+      "NotebookEdit",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Agent"
     ],
     "ask": [
       "Bash(git push --force*)",
