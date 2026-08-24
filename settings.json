@@ -1,34 +1,7 @@
 {
-  "theme": "dark",
-  "tui": "fullscreen",
-  "editorMode": "normal",
-  "verbose": false,
-  "cleanupPeriodDays": 30,
   "respectGitignore": true,
+  "cleanupPeriodDays": 30,
   "includeGitInstructions": true,
-  "alwaysThinkingEnabled": true,
-  "autoCompactEnabled": true,
-  "fileCheckpointingEnabled": true,
-  "showTurnDuration": true,
-  "showMessageTimestamps": false,
-  "terminalProgressBarEnabled": true,
-  "todoFeatureEnabled": true,
-  "spinnerTipsEnabled": true,
-  "syntaxHighlightingDisabled": false,
-  "promptSuggestionEnabled": true,
-  "emojiCompletionEnabled": true,
-  "autoUpdatesChannel": "stable",
-  "prefersReducedMotion": false,
-  "autoMemoryEnabled": true,
-  "defaultShell": "bash",
-  "respondToBashCommands": true,
-  "askUserQuestionTimeout": "never",
-  "viewMode": "default",
-  "statusLine": {
-    "type": "command",
-    "command": "node \"C:\\Users\\LaethNueirat\\.claude\\statusline.js\"",
-    "padding": 0
-  },
   "permissions": {
     "allow": [
       "Bash",
@@ -41,23 +14,52 @@
       "Grep",
       "WebFetch",
       "WebSearch",
-      "Agent"
+      "Agent",
+      "mcp__context7",
+      "mcp__claude_ai_Figma",
+      "mcp__claude_ai_Notion",
+      "mcp__claude_ai_Canva",
+      "Bash(npx next *)"
     ],
-    "ask": [
-      "Bash(git push --force*)",
-      "Bash(git push -f*)",
-      "Bash(git push --delete*)",
-      "Bash(git reset --hard*)",
-      "Bash(git clean -f*)",
-      "Bash(git branch -D*)",
-      "Bash(git checkout -- *)",
-      "Bash(rm -rf*)",
-      "Bash(rm -fr*)",
-      "Bash(rm --force*)",
-      "Bash(del /f*)",
-      "Bash(del /s*)",
-      "Bash(rmdir /s*)"
-    ],
-    "defaultMode": "default"
-  }
+    "defaultMode": "bypassPermissions"
+  },
+  "defaultShell": "bash",
+  "respondToBashCommands": true,
+  "statusLine": {
+    "type": "command",
+    "command": "node \"C:\\Users\\LaethNueirat\\.claude\\statusline.js\"",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "codex@openai-codex": true
+  },
+  "extraKnownMarketplaces": {
+    "openai-codex": {
+      "source": {
+        "source": "github",
+        "repo": "openai/codex-plugin-cc"
+      }
+    }
+  },
+  "viewMode": "default",
+  "spinnerTipsEnabled": true,
+  "syntaxHighlightingDisabled": false,
+  "alwaysThinkingEnabled": true,
+  "effortLevel": "xhigh",
+  "promptSuggestionEnabled": true,
+  "emojiCompletionEnabled": true,
+  "askUserQuestionTimeout": "never",
+  "autoUpdatesChannel": "stable",
+  "tui": "fullscreen",
+  "prefersReducedMotion": false,
+  "autoMemoryEnabled": true,
+  "theme": "dark",
+  "editorMode": "normal",
+  "verbose": false,
+  "autoCompactEnabled": true,
+  "fileCheckpointingEnabled": true,
+  "showTurnDuration": true,
+  "showMessageTimestamps": false,
+  "terminalProgressBarEnabled": true,
+  "todoFeatureEnabled": true
 }
