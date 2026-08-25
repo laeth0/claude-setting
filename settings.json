@@ -6,6 +6,7 @@
     "allow": [
       "Bash",
       "Bash(npm *)",
+      "PowerShell",
       "Read",
       "Edit",
       "Write",
