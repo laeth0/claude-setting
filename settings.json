@@ -20,10 +20,25 @@
       "mcp__claude_ai_Figma",
       "mcp__claude_ai_Notion",
       "mcp__claude_ai_Canva",
-      "Bash(npx next *)"
+      "Bash(npx next *)",
+      "Bash(rm -f \"C:\\\\Users\\\\LAETHN~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-LaethNueirat-Desktop-smart-attendance-system\\\\b7ea1014-a3d6-4b34-993c-8c62539615ef\\\\tasks\\\\btolygtwj.output\" *)",
+      "Bash(set -e)",
+      "Bash(mv .agents/skills/nestjs-best-practices .claude/skills/)",
+      "Bash(mv .agents/skills/next-best-practices .claude/skills/)",
+      "Bash(mv .agents/skills/ui-ux-pro-max .claude/skills/)",
+      "Bash(git check-attr *)",
+      "Bash(rm -rf .claude/skills .agents/skills)",
+      "Bash(git checkout-index *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ],
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "bypassPermissions",
+    "additionalDirectories": [
+      "C:\\Users\\LAETHN~1\\AppData\\Local\\Temp\\claude\\c--Users-LaethNueirat-Desktop-smart-attendance-system\\b7ea1014-a3d6-4b34-993c-8c62539615ef\\tasks",
+      "C:\\Users\\LaethNueirat\\.claude"
+    ]
   },
+  "disableRemoteControl": true,
   "defaultShell": "bash",
   "respondToBashCommands": true,
   "statusLine": {
@@ -58,9 +73,12 @@
   "editorMode": "normal",
   "verbose": false,
   "autoCompactEnabled": true,
+  "switchModelsOnFlag": true,
   "fileCheckpointingEnabled": true,
   "showTurnDuration": true,
   "showMessageTimestamps": false,
   "terminalProgressBarEnabled": true,
-  "todoFeatureEnabled": true
+  "todoFeatureEnabled": true,
+  "remoteControlAtStartup": false,
+  "skipDangerousModePermissionPrompt": true
 }
